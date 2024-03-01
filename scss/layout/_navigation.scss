@@ -1,0 +1,24 @@
+.navigation {
+    margin: 0 auto;
+    max-width: 1368px;
+    height: 105px;
+    padding: 41px 75px 40px 75px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    & .logo {
+      display: flex;
+      align-items: center;
+    }
+  
+    & .list-group {
+      list-style: none;
+      display: flex;
+      gap: 28px;
+  
+      & a {
+        text-decoration: none;
+      }
+    }
+  }

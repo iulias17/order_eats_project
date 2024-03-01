@@ -1,0 +1,36 @@
+.buttons {
+  display: flex;
+  gap: 17px;
+
+  & .btn {
+    border-radius: 6px;
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 600;
+
+    &-secondary {
+      background-color: $color-secondary;
+      color: $color-primary;
+      padding: 10px 17px;
+    }
+
+    &-primary {
+      background-color: $color-primary;
+      color: $color-white;
+      padding: 10px 17px;
+    }
+  }
+}
+
+.container-secondary .buttons {
+  align-self: center;
+  margin-bottom: 25px;
+
+  & .btn-large {
+    width: 184px;
+  }
+
+  & i {
+    margin-right: 5px;
+  }
+}

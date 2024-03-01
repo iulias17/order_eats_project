@@ -1,0 +1,59 @@
+.container-primary {
+  height: 42px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: $color-white;
+  background-color: $color-primary;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+
+  & .container-secondary {
+    max-width: 1368px;
+    display: flex;
+    flex-direction: column;
+    border-radius: 16px;
+    height: 759px;
+    padding-top: 90px;
+    text-align: center;
+    background-color: $color-primary-light;
+  
+    & h1 {
+      font-size: 60px;
+      font-weight: 700;
+      width: 60%;
+      margin: 0 auto;
+      color: $color-primary-dark;
+    }
+  
+    & p {
+      width: 771px;
+      margin-bottom: 42px;
+      color: $color-grey;
+      font-size: 21px;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  }
+
+  & .checkmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    font-size: 12px;
+    color: $color-primary-dark;
+    margin-bottom: 20px;
+  
+    & i {
+      color: $color-primary;
+      margin-right: 5px;
+    }
+  }
+}
+
+

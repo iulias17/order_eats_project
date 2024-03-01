@@ -1,0 +1,130 @@
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: inherit;
+}
+
+html {
+  font-size: 16px;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+.buttons {
+  display: flex;
+  gap: 17px;
+}
+.buttons .btn {
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 600;
+}
+.buttons .btn-secondary {
+  background-color: #d8dbfb;
+  color: #6f47eb;
+  padding: 10px 17px;
+}
+.buttons .btn-primary {
+  background-color: #6f47eb;
+  color: #fff;
+  padding: 10px 17px;
+}
+
+.container-secondary .buttons {
+  align-self: center;
+  margin-bottom: 25px;
+}
+.container-secondary .buttons .btn-large {
+  width: 184px;
+}
+.container-secondary .buttons i {
+  margin-right: 5px;
+}
+
+.container-primary {
+  height: 42px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  background-color: #6f47eb;
+}
+
+.hero-section {
+  display: flex;
+  justify-content: center;
+}
+.hero-section .container-secondary {
+  max-width: 1368px;
+  display: flex;
+  flex-direction: column;
+  border-radius: 16px;
+  height: 759px;
+  padding-top: 90px;
+  text-align: center;
+  background-color: #eff0fc;
+}
+.hero-section .container-secondary h1 {
+  font-size: 60px;
+  font-weight: 700;
+  width: 60%;
+  margin: 0 auto;
+  color: #1c1934;
+}
+.hero-section .container-secondary p {
+  width: 771px;
+  margin-bottom: 42px;
+  color: #5e5d6d;
+  font-size: 21px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.hero-section .checkmark {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  font-size: 12px;
+  color: #1c1934;
+  margin-bottom: 20px;
+}
+.hero-section .checkmark i {
+  color: #6f47eb;
+  margin-right: 5px;
+}
+
+.navigation {
+  margin: 0 auto;
+  max-width: 1368px;
+  height: 105px;
+  padding: 41px 75px 40px 75px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.navigation .logo {
+  display: flex;
+  align-items: center;
+}
+.navigation .list-group {
+  list-style: none;
+  display: flex;
+  gap: 28px;
+}
+.navigation .list-group a {
+  text-decoration: none;
+}
+
+/*# sourceMappingURL=main.css.map */
