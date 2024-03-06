@@ -1,14 +1,9 @@
 .header {
-  position: fixed;
+  // position: fixed;
   top: 42px;
   left: 0;
   width: 100%;
-}
-
-@media only screen and (max-width: 576px) {
-  .header {
-    top: 0;
-  }
+  background-color: $color-white;
 }
 
 .navbar {
@@ -17,8 +12,9 @@
   justify-content: space-between;
   max-width: 1290px;
   margin: 0 auto;
-  padding: 20px 75px;
+  padding: 30px 75px;
 }
+
 
 .navbar .links {
   display: flex;
@@ -45,8 +41,6 @@
   transition: 0.2s ease;
 }
 
-
-
 /* Hamburger menu styles */
 #menu-toggle {
   display: none;
@@ -58,6 +52,17 @@
   cursor: pointer;
   display: none;
   order: 1;
+}
+
+
+@media only screen and (max-width: 576px) {
+  .header {
+    top: 0;
+  }
+
+  .navbar {
+    padding: 45px 75px;
+  }
 }
 
 @media screen and (max-width: 1023px) {
@@ -74,6 +79,7 @@
     margin-top: 50px;
     flex-direction: column;
     transition: 0.3s ease;
+    background-color: $color-white;
   }
 
   .navbar #menu-toggle:checked ~ .links {
