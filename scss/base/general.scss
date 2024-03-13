@@ -1,0 +1,30 @@
+.container-full {
+  width: 100%;
+  padding: 0 36px;
+
+  .content {
+    border-radius: 20px;
+  }
+}
+
+.container {
+  max-width: 1290px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin: 0 auto;
+}
+
+.container-lg {
+  max-width: 1102px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (max-width: 576px) {
+  .container-full {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
